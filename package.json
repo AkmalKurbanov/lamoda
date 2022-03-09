@@ -1,0 +1,41 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "Project",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-fonter": "^0.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-restart": "^0.1.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^4.0.1",
+    "gulp-webp-html": "^1.0.2",
+    "gulp-webpcss": "^1.1.1"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  }
+}

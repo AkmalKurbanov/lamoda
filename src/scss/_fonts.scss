@@ -1,0 +1,3 @@
+@import "mixins/fontface";
+
+@include font-face("fontsName", "../assets/fonts/fontsName", 400);
